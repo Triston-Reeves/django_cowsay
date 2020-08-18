@@ -1,0 +1,8 @@
+<a href="history/">Most Recent</a>
+
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Click Me!">
+</form>
+<pre>{{ subprocess }}</pre>
